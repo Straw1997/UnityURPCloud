@@ -1,0 +1,93 @@
+Using pre-set license
+Built from '2020.2/china_unity/release' branch; Version is '2020.2.3f1c1 (0868e01cc8b5) revision 551136'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'zh' Physical Memory: 32640 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.3f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Study/Git/UnityURPCloud/Clouds
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+12659
+Successfully changed project path to: D:/Study/Git/UnityURPCloud/Clouds
+D:/Study/Git/UnityURPCloud/Clouds
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1c1 (0868e01cc8b5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Study/Git/UnityURPCloud/Clouds/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   
+    VRAM:     12108 MB
+    Driver:   30.0.14.9649
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001448 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.159 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.694 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2417 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.2 MB.
+System memory in use after: 115.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2859.
+Total: 1.959700 ms (FindLiveObjects: 0.215800 ms CreateObjectMapping: 0.114200 ms MarkObjects: 1.567600 ms  DeleteObjects: 0.061300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Clouds.unity
+  artifactKey: Guid(a8084c2ed063029419a2f58f21ecf059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Clouds.unity using Guid(a8084c2ed063029419a2f58f21ecf059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c815df3984473f8cfbd45e3cf23988c') in 0.009789 seconds
+  Import took 0.012419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Cloud_Bake_test.tga
+  artifactKey: Guid(5cf48af40587a1d43b8cc6e82161291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cloud_Bake_test.tga using Guid(5cf48af40587a1d43b8cc6e82161291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24dc7413e60a2ea49d9a82c39acbad6') in 0.061853 seconds
+  Import took 0.064471 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

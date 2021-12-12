@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cloud_No3DTex
+  m_Shader: {fileID: 4800000, guid: e00f8fc5a742071458fcaa3c38478647, type: 3}
+  m_ShaderKeywords: _CLOUDLAYER_ON _DETAIL_ON _LIGHTING_COLOR_ON _LIGHTING_CONVENTION_ON
+    _LIGHTING_EFFECT_ON _LIGHTING_ON _OFF _RENDERMODE1_REALTIME _RENDERMODE_NO3DTEX
+    _SHAPEEFFECT_ON _SHAPEOTHER_ON _SHAPE_DETAIL_ON _SHAPE_EFFECT_ON _SHAPE_ON _SHAPE_OTHER_ON
+    _SHAPE_WEATHER_CLOUD_ON _SHAPE_WEATHER_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseShapeTex:
+        m_Texture: {fileID: 11700000, guid: 28df912f8d8e9ff4fb6cb5830869635c, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailShapeTex:
+        m_Texture: {fileID: 11700000, guid: 43924d05525272a4d891aefcc7ab3f8d, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WeatherTex:
+        m_Texture: {fileID: 2800000, guid: 7ae33508721775045bb1cdaef9888e77, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _BaseShapeDetailEffect: 0.5
+    - _BaseShapeTexTiling: 1.32
+    - _BaseTexTiling: 0.27
+    - _Blend: 0
+    - _BlueNoiseEffect: 0.721
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _CloudAbsorb: 0.7
+    - _CloudCover: 0.25
+    - _CloudFeather: 0.297
+    - _CloudLayer: 1
+    - _CloudOffsetLower: 0
+    - _CloudOffsetUpper: 0.133
+    - _ColorCentralOffset: 0.528
+    - _Cull: 2
+    - _CumulusFeather: 0.345
+    - _Cutoff: 0.5
+    - _DarknessThreshold: 0.143
+    - _DensityScale: 0.625
+    - _DensityThreshold: 0
+    - _Detail: 1
+    - _DetailAlbedoMapScale: 1
+    - _DetailEffect: 0
+    - _DetailFrequency: 0.059
+    - _DetailNormalMapScale: 1
+    - _DetailShapeTexTiling: 0.84
+    - _DetailTexTiling: 2
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FoldoutOut: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Lighting: 1
+    - _LightingMarchLength: 110.5
+    - _LightingMarchMax: 5
+    - _Lighting_Color: 1
+    - _Lighting_Convention: 1
+    - _Lighting_Effect: 1
+    - _MarchNumber_Light: 8.6
+    - _MarchNumber_Shape: 13.2
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _RenderMode: 1
+    - _RenderMode1: 0
+    - _SDFScale: 1
+    - _ScatterBackward: 0.25
+    - _ScatterBackwardIntensity: 0.5
+    - _ScatterBase: 0.805
+    - _ScatterForward: 0.709
+    - _ScatterForwardIntensity: 0.5
+    - _ScatterMultiply: 1
+    - _Shape: 1
+    - _ShapeEffect: 1
+    - _ShapeMarchLength: 800
+    - _ShapeMarchMax: 20
+    - _ShapeOther: 1
+    - _Shape_Detail: 1
+    - _Shape_Effect: 1
+    - _Shape_Other: 1
+    - _Shape_Weather: 1
+    - _Shape_Weather_Cloud: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StratusFeather: 0.336
+    - _Surface: 0
+    - _Test: 0.506
+    - _WeatherTexOffset: 1
+    - _WeatherTexRepair: 0.017
+    - _WeatherTexTiling: 10.8
+    - _WindSpeed: 0.84
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseShapeRatio: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseTexOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _BoundBoxMax: {r: 8.182128, g: 1.6436055, b: 8.182128, a: 0}
+    - _BoundBoxMin: {r: -8.182128, g: -1.6436055, b: -8.182128, a: 0}
+    - _CloudHeightMinMax: {r: 1500, g: 4000, b: 0, a: 8000}
+    - _CloudHeightRange: {r: 1500, g: 4110.906, b: 0, a: 8000}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorBright: {r: 0.901, g: 0.92255145, b: 1, a: 1}
+    - _ColorCentral: {r: 0.37808, g: 0.4254858, b: 0.544, a: 1}
+    - _ColorDark: {r: 0.03464706, g: 0.050233666, b: 0.05882353, a: 1}
+    - _CumulusRange: {r: 0.14225674, g: 1, b: 0, a: 1}
+    - _DetailTexOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _StratusRange: {r: 0.12632465, g: 0.47628748, b: 0, a: 1}
+    - _WeatherTexOffset: {r: 15.47, g: -0.8, b: 0, a: 0}
+    - _WindDirecton: {r: 0.13765766, g: -0.15676177, b: 0.977996, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &4922731323146268576
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4

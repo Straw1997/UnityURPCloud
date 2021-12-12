@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-677765928996267378
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cloud_Bake
+  m_Shader: {fileID: 4800000, guid: e00f8fc5a742071458fcaa3c38478647, type: 3}
+  m_ShaderKeywords: _LIGHTING_COLOR_ON _LIGHTING_CONVENTION_ON _LIGHTING_EFFECT_ON
+    _LIGHTING_ON _OFF _RENDERMODE_BAKE _SHAPE_DETAIL_ON _SHAPE_EFFECT_ON _SHAPE_ON
+    _SHAPE_OTHER_ON _SHAPE_WEATHER_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseShapeTex:
+        m_Texture: {fileID: 11700000, guid: 27b1c65e4218f924f8142490e97cc1b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailShapeTex:
+        m_Texture: {fileID: 11700000, guid: 43924d05525272a4d891aefcc7ab3f8d, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WeatherTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _BaseShapeDetailEffect: 0.5
+    - _BaseShapeTexTiling: 1
+    - _Blend: 0
+    - _BlueNoiseEffect: 1
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _CloudAbsorb: 0.33
+    - _CloudCover: 0.5
+    - _CloudFeather: 0.2
+    - _CloudOffsetLower: 0
+    - _CloudOffsetUpper: 0
+    - _ColorCentralOffset: 0.5
+    - _Cull: 2
+    - _CumulusFeather: 0.2
+    - _Cutoff: 0.5
+    - _DarknessThreshold: 0.179
+    - _DensityScale: 1
+    - _DetailAlbedoMapScale: 1
+    - _DetailEffect: 0.173
+    - _DetailNormalMapScale: 1
+    - _DetailShapeTexTiling: 2.82
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FoldoutOut: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Lighting: 1
+    - _LightingMarchMax: 8
+    - _Lighting_Color: 1
+    - _Lighting_Convention: 1
+    - _Lighting_Effect: 1
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _RenderMode: 2
+    - _SDFScale: 1
+    - _ScatterBackward: 0.4
+    - _ScatterBackwardIntensity: 0.4
+    - _ScatterBase: 0.224
+    - _ScatterForward: 0.479
+    - _ScatterForwardIntensity: 0.296
+    - _ScatterMultiply: 0.7
+    - _Shape: 1
+    - _ShapeMarchLength: 180
+    - _ShapeMarchMax: 30
+    - _Shape_Detail: 1
+    - _Shape_Effect: 1
+    - _Shape_Other: 1
+    - _Shape_Weather: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StratusFeather: 0.2
+    - _Surface: 0
+    - _Test: 1
+    - _WeatherTexTiling: 1
+    - _WindSpeed: 1
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseShapeRatio: {r: 1, g: 0.909091, b: 1.16364, a: 1}
+    - _BoundBoxMax: {r: 9012.594, g: 9552.594, b: -9067.406, a: 0}
+    - _BoundBoxMin: {r: 767.40625, g: 1307.4062, b: -17312.594, a: 0}
+    - _CloudHeightRange: {r: 1500, g: 4000, b: 0, a: 8000}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorBright: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorCentral: {r: 0.4251765, g: 0.458643, b: 0.54509807, a: 1}
+    - _ColorDark: {r: 0.03529412, g: 0.050980393, b: 0.05882353, a: 1}
+    - _CumulusRange: {r: 0.15, g: 0.8, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _StratusRange: {r: 0.1, g: 0.4, b: 0, a: 1}
+    - _WeatherTexOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _WindDirecton: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
